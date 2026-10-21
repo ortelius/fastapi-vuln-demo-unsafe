@@ -1,12 +1,25 @@
 apiVersion: v1
 entries:
   fastapi-vuln-demo:
-    - apiVersion: v2
-      name: fastapi-vuln-demo-unsafe
-      version: 12.0.0
-      appVersion: "12.0.0"
-      description: FastAPI vulnerable demo application
-      type: application
-      urls:
-        - fastapi-vuln-demo-12.0.0.tgz
-generated: "2026-10-20T00:00:00Z"
+  - apiVersion: v2
+    appVersion: 12.0.6
+    created: "2026-10-21T02:14:34.112626155Z"
+    description: AI Hackathon Demo
+    digest: 52dcc9a246f062876a9c95787151313e51fadc1e2f5d098470eb292a02059540
+    icon: https://ortelius.github.io/ortelius-charts/logo.png
+    name: fastapi-vuln-demo
+    type: application
+    urls:
+    - https://github.com/ortelius/fastapi-vuln-demo-unsafe/releases/download/v12.0.6/fastapi-vuln-demo-12.0.6.tgz
+    version: 12.0.6
+  fastapi-vuln-demo-unsafe:
+  - apiVersion: v2
+    appVersion: 12.0.0
+    created: "0001-01-01T00:00:00Z"
+    description: FastAPI vulnerable demo application
+    name: fastapi-vuln-demo-unsafe
+    type: application
+    urls:
+    - fastapi-vuln-demo-12.0.0.tgz
+    version: 12.0.0
+generated: "2026-10-21T02:14:34.111807472Z"
